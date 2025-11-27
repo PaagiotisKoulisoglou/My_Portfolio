@@ -28,7 +28,7 @@ const Finder = () => {
              <li
                 key={item.id}
                 onClick={() => setActiveLocation(item)}
-                className={clsx(item.id === activeLocation ? "active" : "not-active")} >
+                className={clsx(item.id === activeLocation?.id ? "active" : "not-active")} >
                 <img src={item.icon} className="w-4" alt={item.name} />
                  <p className="text-sm font-medium truncate">{item.name}</p>
             </li>
