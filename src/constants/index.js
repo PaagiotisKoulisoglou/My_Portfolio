@@ -74,30 +74,7 @@ const dockApps = [
     },
 ];
 
-const blogPosts = [
-    {
-        id: 1,
-        date: "Sep 2, 2025",
-        title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-    },
-    {
-        id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-    },
-    {
-        id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-    },
-];
+const blogPosts = [];
 
 const techStack = [
     {
@@ -114,7 +91,7 @@ const techStack = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Node.js", "Express", "NestJS",],
     },
     {
         category: "Database",
@@ -132,7 +109,7 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/PaagiotisKoulisoglou",
     },
     {
         id: 2,
@@ -143,17 +120,17 @@ const socials = [
     },
     {
         id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
+        text: "Instagram",
+        icon: "/images/instagram.png",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://www.instagram.com/koulisoglou_/",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/panagiotis-koulisoglou-614871252/",
     },
 ];
 
@@ -185,24 +162,7 @@ const photosLinks = [
     },
 ];
 
-const gallery = [
-    {
-        id: 1,
-        img: "/images/gal1.png",
-    },
-    {
-        id: 2,
-        img: "/images/gal2.png",
-    },
-    {
-        id: 3,
-        img: "/images/gal3.png",
-    },
-    {
-        id: 4,
-        img: "/images/gal4.png",
-    },
-];
+
 
 export {
     navLinks,
@@ -212,7 +172,6 @@ export {
     techStack,
     socials,
     photosLinks,
-    gallery,
 };
 
 const WORK_LOCATION = {
@@ -225,7 +184,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Stock Market App",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -233,35 +192,35 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Signalist Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "Signalist is a modern stock market companion that makes exploring markets feel effortless and engaging.",
+                        "Instead of a basic ticker list, it delivers an immersive experience with real‑time charts, a powerful command‑palette search, and clean, focused screens for each symbol.",
+                        "Think of it like stepping onto a pro trading floor—complete with heat maps, news summaries, and rich visual context—right from your phone or laptop.",
+                        "Built with Next.js and Tailwind, it’s fast, responsive, and polished; powered by TradingView for visuals, Finnhub for market data, Inngest for background jobs, and Nodemailer for timely, AI‑assisted email updates.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "Signalist.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://signal-stock-market-app.vercel.app/sign-in",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "signalist.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
+                    imageUrl: "/images/signalist.JPG",
                 },
                 {
                     id: 5,
@@ -275,10 +234,10 @@ const WORK_LOCATION = {
             ],
         },
 
-        // ▶ Project 2
+// ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Mac 3D Product Page",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -286,35 +245,35 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Mac 3D Product Page.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "A modern, animated product experience inspired by Apple's Mac pages, built with React and Vite.",
+                        "Features a realtime 3D Macbook viewer using Three.js via @react-three/fiber and smooth GSAP ScrollTrigger animations.",
+                        "Responsive, fast, and polished UI styled with Tailwind CSS v4 and lightweight global state via Zustand.",
+                        "Perfect for showcasing hardware in an immersive, scroll-driven story that works great across devices.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "mac-3d-product-page.com",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    href: "https://mac-book-landing-psi.vercel.app/",
                     position: "top-20 left-20",
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "mac-3d.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
+                    imageUrl: "/images/mac-3d.png",
                 },
                 {
                     id: 5,
@@ -322,7 +281,7 @@ const WORK_LOCATION = {
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://www.figma.com/",
                     position: "top-60 left-5",
                 },
             ],
@@ -331,7 +290,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Movie Finder App",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,35 +298,35 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Movie Finder App Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "Movie Finder App is a sleek mobile experience for discovering and searching movies instantly.",
+                        "It pulls real-time data from TMDB and uses a custom popularity algorithm powered by user engagement.",
+                        "Built with Expo (React Native), TypeScript, and NativeWind (Tailwind), it’s fast, responsive, and works on iOS, Android, and web.",
+                        "Appwrite handles backend needs like analytics and data storage, making it scalable and production-ready.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "movie-app",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://github.com/PaagiotisKoulisoglou?tab=repositories",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "movie-finder-app.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    imageUrl: "/images/movie.JPG",
                 },
                 {
                     id: 5,
@@ -390,47 +349,21 @@ const ABOUT_LOCATION = {
     icon: "/icons/info.svg",
     kind: "folder",
     children: [
-        {
-            id: 1,
-            name: "me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
-        },
-        {
-            id: 2,
-            name: "casual-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
-        },
-        {
-            id: 3,
-            name: "conference-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
-        },
+
         {
             id: 4,
             name: "about-me.txt",
-            icon: "/images/txt.png",
+            icon: "/images/image.png",
             kind: "file",
             fileType: "txt",
-            position: "top-60 left-5",
+            position: "top-10 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/egw.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Panagiotis 👋, a full-stack developer who loves building smooth, reliable, and modern web applications from front to back.",
+                "I work with JavaScript, React, Next.js, Node.js, and cloud-ready backend tools to create fast UIs and scalable systems that actually perform.",
+                "I focus on clean architecture, intuitive UX, and writing code that’s clear, efficient, and easy to maintain—no over-engineering, just good engineering.",
+                "Outside of dev work, you’ll find me tweaking designs late at night, exploring new tech, or buying yet another tool I’m convinced will level up my workflow.",
             ],
         },
     ],
@@ -469,7 +402,7 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-10",
-            imageUrl: "/images/trash-1.png",
+            imageUrl: "/images/vide.JPG",
         },
         {
             id: 2,
@@ -478,7 +411,7 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-40 left-80",
-            imageUrl: "/images/trash-2.png",
+            imageUrl: "/images/tutorials.png",
         },
     ],
 };
