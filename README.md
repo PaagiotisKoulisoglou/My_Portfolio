@@ -221,3 +221,6 @@ Specify your license here (e.g., MIT). If you haven’t chosen one yet, consider
 - PDF rendering by `react-pdf`
 
 ## Motivation
+##Quick Start
+##Usage
+##Contributing
