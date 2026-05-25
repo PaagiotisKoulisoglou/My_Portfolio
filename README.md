@@ -219,8 +219,3 @@ Specify your license here (e.g., MIT). If you haven’t chosen one yet, consider
 - Styling by Tailwind CSS
 - Icons by Lucide
 - PDF rendering by `react-pdf`
-
-## Motivation
-##Quick Start
-##Usage
-##Contributing
